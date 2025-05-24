@@ -89,7 +89,7 @@ a {
     min-height: 100vh;
     color: #ffffff;
     gap: 10px;
-    background: url(../img/discordpf/mrow.png);
+    background: url(../img/discordpf/gift.mp4);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -386,4 +386,24 @@ input {
 }
 .nopadding {
     padding: 0 !important;
+}
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  pointer-events: none; /* optional: so you can click "through" it */
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
 }
