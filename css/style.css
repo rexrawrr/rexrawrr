@@ -66,8 +66,8 @@ body {
     
 
 a {
-    color: #a00000;
-    text-decoration: none;
+	color: #FF00FF;
+	text-decoration: none;
 }
 
 #musicIcon{
@@ -89,7 +89,7 @@ a {
     min-height: 100vh;
     color: #ffffff;
     gap: 10px;
-    background: url(../img/discordpf/bg.png);
+    background: url(../img/discordpf/mrow.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
